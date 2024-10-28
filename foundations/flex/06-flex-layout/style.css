@@ -7,7 +7,6 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 img {
@@ -27,16 +26,18 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
-/* Solution */
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  gap: 16px;
 }
 
 a {
   text-decoration: none;
-  color: #666666;
+  color: #666;
 }
 
 .header, .footer {
@@ -49,16 +50,13 @@ a {
   background-color: #eeeeee;
 }
 
-.left-links, .right-links {
-  display: flex;
-  gap: 16px;
-}
-
 .content {
   display: flex;
+  flex: 1;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 16px
+  gap: 16px;
 }
 
 button {
