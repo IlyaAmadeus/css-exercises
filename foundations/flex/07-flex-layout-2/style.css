@@ -11,6 +11,9 @@ body {
   /* Solution */
   font-weight: 900;
   font-size: 32px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .footer {
